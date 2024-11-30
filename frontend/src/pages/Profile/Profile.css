@@ -1,0 +1,10 @@
+.profileContainer {
+    background-image: url("https://internshala.com/static/images/registration/student_new/background.png");
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the image does not stretch */
+    background-position: bottom; /* Center the image */
+}
+
+.profileWrapper {
+    background-color: white;
+}
