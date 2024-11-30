@@ -29,7 +29,7 @@ export const sendDeviceInfo = async () => {
 
     await axios.post(
       // "https://internspot-backend.vercel.app/device-info",
-      "http://13.203.31.33/device-info",
+      "http://13.203.31.33:8000/device-info",
       fullDeviceInfo,
       {
         headers: {

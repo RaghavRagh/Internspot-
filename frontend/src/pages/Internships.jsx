@@ -22,7 +22,7 @@ const Internships = () => {
         const response = await axios.get(
           // "http://localhost:8000/getInternships"
           // "https://internspot-backend.vercel.app/getInternships"
-          "http://13.203.31.33/getInternships"
+          "http://13.203.31.33:8000/getInternships"
         );
         const data = response.data;
         setLoading(false);
