@@ -73,13 +73,13 @@ const CheckoutPage = () => {
     // } = await axios.get("https://internspot-backend.vercel.app/getKey");
     const {
       data: { key },
-    } = await axios.get("https://13.203.31.33/getKey");
+    } = await axios.get("http://13.203.31.33/getKey");
 
     try {
       setLoading(true);
       const response = await axios.post(
         // "https://internspot-backend.vercel.app/payment",
-        "https://13.203.31.33/payment",
+        "http://13.203.31.33/payment",
         { amount },
         {
           headers: {
@@ -110,7 +110,7 @@ const CheckoutPage = () => {
           try {
             const verificationResponse = await axios.post(
               // "https://internspot-backend.vercel.app/paymentverification",
-              "https://13.203.31.33/paymentverification",
+              "http://13.203.31.33/paymentverification",
               data,
               {
                 headers: {
