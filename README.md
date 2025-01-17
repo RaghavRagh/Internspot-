@@ -26,6 +26,7 @@ A comprehensive platform for students to search, apply, and manage internships, 
 - **Database:** MongoDB
 - **Authentication:** Google OAuth, JWT
 - **Payment Integration:** Razorpay
+- **Cloud:** AWS
 
 ## Installation
 
